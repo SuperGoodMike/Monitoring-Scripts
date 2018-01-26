@@ -86,7 +86,7 @@ OK: Swap utilization is at 7.700 %| swap\_used=7.700;85;95;
 
 **Nagios Server Command line:**
 
-[nagios@SomeServer ~]$ /usr/local/nagios/libexec/check\_by\_ssh -q -H 192.168.100.69 -C &quot;/home/supergoodmike//bin/nagios/check\_mem.pl -u -C -w 85 -c 95&quot; -l supergoodmike
+[nagios@SomeServer ~]$ /usr/local/nagios/libexec/check\_by\_ssh -q -H 192.168.100.69 -C &quot;/home/supergoodmike/bin/nagios/check\_mem.pl -u -C -w 85 -c 95&quot; -l supergoodmike
 
 OK - 35.5% (5851548 kB) used.|TOTAL=16463327KB;;;; USED=5851548KB;13993827;15640160;; FREE=10611779KB;;;; CACHES=7041011KB;;;;
 
